@@ -51,7 +51,7 @@ const PasswordGenerator = () => {
   const copyToClipboard = () => {
     navigator.clipboard.writeText(password).then(() => {
       setShowTooltip(true);
-      setTimeout(() => setShowTooltip(false), 2000);
+      setTimeout(() => setShowTooltip(false), 1000);
     });
   };
 
@@ -76,7 +76,7 @@ const PasswordGenerator = () => {
           </div>
           <div className="flex items-center space-x-2">
             <RadioGroupItem value="complex" id="complex" />
-            <Label htmlFor="complex">記号+英数字</Label>
+            <Label htmlFor="complex">英数字+記号</Label>
           </div>
         </RadioGroup>
         <div className="mb-4">
