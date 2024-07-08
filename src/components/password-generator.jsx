@@ -58,7 +58,7 @@ const PasswordGenerator = () => {
   return (
     <Card className="w-[350px]">
       <CardHeader>
-        <CardTitle>パスワード生成ツール</CardTitle>
+        <CardTitle>パスワードジェネレーター</CardTitle>
       </CardHeader>
       <CardContent>
         <RadioGroup
